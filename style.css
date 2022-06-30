@@ -162,12 +162,19 @@ nav ul {
 }
 
 /* PROJECTS SECTION */
+/* .projects-section {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+} */
 
 .slider-container {
   position: relative;
   overflow: hidden;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
+  margin: 100px;
 }
 
 .left-slide {
@@ -212,4 +219,38 @@ nav ul {
   width: 100%;
 }
 
+button {
+  background-color: white;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
 
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline:none;
+}
+
+.slider-container .action-buttons button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+
+.slider-container .action-buttons .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.slider-container .action-buttons .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
