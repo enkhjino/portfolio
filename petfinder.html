@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav">
+          <h1 class="logo"><a href="/index.html"></a></h1>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container pawfriend">
+      <div class="element-section">
+        <div class="element-container">
+
+          <div class="left-element">
+              <button>go back</button>
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                  <div class="mySlides fade">
+                    <img src="https://i.imgur.com/jUCpskD.png" style="width:100%;">
+                  </div>
+                
+                  <div class="mySlides fade">
+                    <img src="https://i.imgur.com/44KVChd.png" style="width:100%">
+                  </div>
+                
+                  <div class="mySlides fade">
+                    <img src="https://i.imgur.com/F1X71Dr.png" style="width:100%">
+                  </div>
+                  
+                  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div> -->
+                <br>
+
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="right-element">
+              <h1>Paw Friends</h1>
+              <br>
+              <ul class="skills-used">
+                <li>MERN Stack</li>
+                <li>PetFinderAPI</li>
+              </ul>
+              <br>
+              <p>This app was created to increase pet adoption after the high rate of
+                post-pandemic pet abandonment.</p>
+              <br>
+              <p>A full stack web application built using React, Express.js, Node.js and MongoDB. 
+                The application lets users find their perfect pet through a survey they fill out according to their own criteria. 
+                It calls the PetFinder API using the survey to fetch matching pets.</p>
+              <br>
+              <div class="links">
+                <a target="_blank" 
+                  href="https://paw-friend.herokuapp.com/"><img class = "image" src="./assets/www.svg" style="width:4vmin">
+                </a><br>
+                <a target="_blank"
+                  href="https://github.com/enkhjino/paw_friend"><img class = "image" src="./assets/github.svg" style="width:5vmin"></a>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</body>
+</html>

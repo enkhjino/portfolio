@@ -13,141 +13,176 @@
         <div class="container nav">
           <h1 class="logo"><a href="/index.html"></a></h1>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
     </nav>
 
-    <div class="welcome">
-        <div class="container welcome">
-            <!-- <h1><strong>Angie Ochirbal</strong></h1> -->
-            <img src= "./assets/welcome.JPG">
-         <div class = "sidebox">
-                <h1 class="title-welcome">ANGIE OCHIRBAL</h1>
-                 <h2>Hello, I'm a Seattle based frontend engineer.</h2>
-         </div>
-         
-          <!-- <h3>Software Engineer</h3> -->
-          <!-- <h2>Welcome To My Website</h2>
-          <p>I am a Software Engineer who wants to create simple and intuitive user interfaces that elevate the online presence.
-            I was born and raised in Ulaanbaatar, Mongolia. I moved to the United States at 12, becoming a first-generation immigrant. Although I faced many struggles, including language and cultural barriers, I worked hard to create opportunities for myself which led to earning a Full-Ride Scholarship and graduating with a degree in Business Administration.
-            I have always been interested in working with technology, which steered me into becoming a software engineer. Feel free to contact me if you want to say hello or have any questions!</p> -->
-        </div>
+   
+    <div class="social-nav">
+        <ul class="outer-social">
+            <li><a href="https://www.linkedin.com/in/angie-ochirbal/" target="_blank"><img class = "image" src="./assets/linkedin.svg" style ="width:6.5vh"/></a></li>
+            <li><a href="https://github.com/enkhjino" target="_blank"><img class = "image" src="./assets/github.svg" style ="width:6vh"/></a></li>
+            <li><a href="https://drive.google.com/file/d/1N20ttM64eNXGkK_sHVEjaBWXAnQ_zKvk/view?usp=sharing" target="_blank"><img class = "image" src="./assets/github.svg" style ="width:6vh"/></a></li>
+        </ul>
     </div>
 
-    <div class="container skills">
-        <h2>Skills</h2>
-        <div class="icon-container">
-            <div class="skill-icon">
-                <img src= "./assets/html.svg" style="width:80px;height:80px;"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/css.svg" style="width:80px;height:80px;"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/javascript.svg" style="width:80px;height:80px;"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/node-js.svg" style="height:80px"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/github.svg" style="height:80px"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/mongodb-svgrepo-com (1).svg" style="height:60px"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/postgresql.svg" style="width:80px;height:80px;"/>
-            </div>
-            <div class="skill-icon">
-                <img src="./assets/react-native.svg" style="height:80px"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/python.svg" style="height:80px"/>
-            </div>
-            <div class="skill-icon">
-                <img src= "./assets/django.svg" style="height:80px"/>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="projects-section">
-        <h2 class="projects">Projects</h2>
-        <div class="slider-container">
-            <div class="left-side">
-                <div style="background-color: rgb(49, 82, 5)">
-                    <h1>Paw Friend</h1>
-                    <p>A full stack web application built using React, Express.js, Node.js and MongoDB. 
-                        The application lets users find their perfect pet through a survey they fill out according to their own criteria. 
-                        It calls the PetFinder API using the survey to fetch matching pets.</p>
-                </div>
-                <div style="background-color: rgb(217, 114, 18)">
-                    <h1>Paw Friend</h1>
-                    <p>A full stack web application built using React, Express.js, Node.js and MongoDB. 
-                        The application lets users find their perfect pet through a survey they fill out according to their own criteria. 
-                        It calls the PetFinder API using the survey to fetch matching pets.</p>
-                </div>
-            </div>
-            <div class="right-side">
-                <div style ="background-image: url('https://i.imgur.com/jUCpskD.png?1')">
-                </div>
-                <div style ="background-image: url('https://i.imgur.com/jUCpskD.png?1')">
-                </div>
-            </div>
-        </div>
+    <!-- <div class="logo">
+        <a href="https://www.linkedin.com/in/angie-ochirbal/" target="_blank"><img class = "image" src="./assets/A (2).png" style ="width:150px"/></a>
     </div> -->
-    <div class="projects-section">
-        <h2 class="projects">Projects</h2>
-        <div class="slider-container">
-            <div class="left-slide">
     
-            <div style="background-color: rgb(30, 80, 30)">
-                <h1>Paw Friend</h1>
-                <p>A full stack web application built using React, Express.js, Node.js and MongoDB. 
-                    The application lets users find their perfect pet through a survey they fill out according to their own criteria. 
-                    It calls the PetFinder API using the survey to fetch matching pets.</p>
-            </div>
-            <div style="background-color: rgb(92, 91, 90)">
-                <h1>Hidden Gems</h1>
-                <p> This app uses the mapbox API to display hiddens "gems" all over USA.
-                    Utilizes Django’s built in authentication which allows signed in users the 
-                    ability to perform full CRUD on hidden gems, reviews and photos. Implements BootStrap.</p>
-            </div>
-            <div style="background-color: rgb(78, 53, 9)">
-                <h1>Happy Hikers</h1>
-                <p> Happy Hikers is a full CRUD application with Google Authentication.
-                    This app connects hiking lovers to share, review and view hiking trails.</p>
-            </div>
-            <div style="background-color: rgb(61, 53, 174)">
-                <h1>Stellar Concentration</h1>
-                <p> A fully functional clone of the popular game Concentration.
-                    Built using pure HTML, CSS, & JavaScript.</p>
-            </div>
-    
-            </div>
-            <div class="right-slide">
-                <div style ="background-image: url('https://i.imgur.com/skupKfz.png')"></div>
-                <div style ="background-image: url('https://i.imgur.com/b4haGyy.png')"></div>
-                <div style ="background-image: url('https://i.imgur.com/smd5bKo.png')"></div>
-                <div style ="background-image: url('https://i.imgur.com/jUCpskD.png?1')"></div>
+
+    <section id="home">
+        <div class="container welcome">
+            <div class="welcome">
+                <!-- <h1><strong>Angie Ochirbal</strong></h1> -->
+                <img src= "./assets/welcome.JPG">
+            <div class = "sidebox">
+                    <h1 class="title-welcome">ANGIE OCHIRBAL</h1>
+                    <h2>Hello, I'm a Seattle based frontend engineer.</h2>
             </div>
             
-            <div class="action-buttons">
-    
-            <button class="down-button">
-                <i class="fas fa-arrow-down"></i>     
-            </button>
-    
-            <button class="up-button">
-                <i class="fas fa-arrow-up"></i>     
-            </button>
+            <!-- <h3>Software Engineer</h3> -->
+            <!-- <h2>Welcome To My Website</h2>
+            <p>I am a Software Engineer who wants to create simple and intuitive user interfaces that elevate the online presence.
+                I was born and raised in Ulaanbaatar, Mongolia. I moved to the United States at 12, becoming a first-generation immigrant. Although I faced many struggles, including language and cultural barriers, I worked hard to create opportunities for myself which led to earning a Full-Ride Scholarship and graduating with a degree in Business Administration.
+                I have always been interested in working with technology, which steered me into becoming a software engineer. Feel free to contact me if you want to say hello or have any questions!</p> -->
             </div>
         </div>
-    </div>
-      <script src="script.js"></script>
+    </section>
+
+    <section id="projects">
+        <div class="container projects">
+            <h2>Projects</h2>
+            <section class="section-wrap">
+                <div class="section-wrap-elements">
+                    <div class="element">
+                        <a href="petfinder.html">
+                            <img src="https://i.imgur.com/jUCpskD.png?1" alt="" style="width:350px;height:350px">
+                            <div class="overlay">
+                                <div class="text">Paw Finder</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="hidden-gems.html">
+                            <img src="https://i.imgur.com/smd5bKo.png" alt="" style="width:350px;height:350px">
+                            <div class="overlay">
+                                <div class="text">Hidden Gems</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="happy-hikers.html">
+                            <img src="https://i.imgur.com/b4haGyy.png" alt="" style="width:350px;height:350px">
+                            <div class="overlay">
+                                <div class="text">Happy Hikers</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="concentration.html">
+                            <img src="https://i.imgur.com/skupKfz.png" alt="" style="width:350px;height:350px">
+                            <div class="overlay">
+                                <div class="text">Stellar Concentration</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <a href="movie-app.html">
+                            <img src="https://i.imgur.com/6o8aXRb.png" alt="" style="width:350px;height:350px">
+                            <div class="overlay">
+                                <div class="text">Movie App</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element">
+                        <img src="https://i.imgur.com/skupKfz.png" alt="" style="width:350px;height:350px">
+                        <div class="overlay">
+                            <div class="text">90's Drawing Pad</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container skills">
+            <h2>Skills</h2>
+            <section class="section-wrap">
+                <div class="icon-container">
+                    <div class="skill-icon">
+                        <img src= "./assets/html.svg" style="width:100px;height:100px;"/>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/css.svg" style="width:100px;height:100px;"/>
+                    <p>CSS3</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/javascript.svg" style="width:100px;height:100px;"/>
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/node-js.svg" style="height:100px"/>
+                        <p>NODE.JS</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/github.svg" style="height:100px"/>
+                        <p>GITHUB</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/mongodb-svgrepo-com (1).svg" style="height:100px"/>
+                        <p>MONGODB</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/postgresql.svg" style="width:100px;height:100px;"/>
+                        <p>POSTGRESQL</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src="./assets/react-native.svg" style="height:100px"/>
+                        <p>REACT</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/python.svg" style="height:100px"/>
+                        <p>PYTHON</p>
+                    </div>
+                    <div class="skill-icon">
+                        <img src= "./assets/django.svg" style="height:100px"/>
+                        <p>DJANGO</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container contact">
+            <h2>Contact</h2>
+            <div class="outer">
+                <div class="inner1">
+                    <h2>Get in touch!</h1>
+                    <p>Want to collaborate? Have questions about my resume or other qualifications, feel free to send me a message!</p>
+                    <h3><a href="https://drive.google.com/file/d/1N20ttM64eNXGkK_sHVEjaBWXAnQ_zKvk/view?usp=sharing" target="_blank">View Resume</a></h1>
+
+                </div>
+                <div class="inner2">
+                    <form id="form" class="topBefore">
+		
+                        <input id="name" type="text" placeholder="NAME" required>
+                        <input id="email" type="text" placeholder="E-MAIL" required>
+                        <input id="subject" type="text" placeholder="SUBJECT">
+                        <textarea id="message" type="text" placeholder="MESSAGE" required></textarea>
+                        <input id="submit" type="submit" value="GO!">
+    
+                    </form>
+                </div>
+            </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
