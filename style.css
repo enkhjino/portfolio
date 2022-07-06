@@ -185,7 +185,6 @@ nav ul {
   justify-items: center;
   margin: 50px;
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 .skill-icon > p {
   margin: 20px;
@@ -200,9 +199,9 @@ nav ul {
 }
 .section-wrap-elements{
   display: grid;
-  grid-template-columns: repeat(3, 35vh);
+  grid-template-columns: repeat(3, 18rem);
   column-gap: 40px;
-  row-gap: 30px;
+  row-gap: 40px;
   align-items: center;
   justify-items: center;
   margin: 50px;
@@ -210,6 +209,8 @@ nav ul {
 
 .element img {
   border-radius: 10px;
+  width:18rem;
+  height: 18rem;
 }
 
 .element {
@@ -228,7 +229,7 @@ nav ul {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgb(85, 85, 85);
+  background-color: #b9b7b7;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -257,16 +258,19 @@ nav ul {
   display: flex;
 }
 .inner1 {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   color:black;
   height: 45vh;
   width: 25vw;
   margin: 50px;
-  padding: 60px;
+  padding: 50px;
   text-align: center;
-  /* align-content: center; */
-  /* justify-content: center; */
+  align-content: center;
+  justify-content: center;
   border-radius: 10px;
+  
 }
 .inner1 h2, h3 {
   padding: 10px;
@@ -286,6 +290,7 @@ nav ul {
 }
 
 .inner2 {
+  position: relative;
   background-color: #424245;
   color:white;
   height: 45vh;
@@ -293,6 +298,11 @@ nav ul {
   margin: 50px 50px 50px 0;
   padding: 10px;
   border-radius: 10px;
+  font-size: 1em;
+}
+
+.inner2 > form {
+  position: relative;
 }
 
 /* FORM */
@@ -374,16 +384,19 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 
 #form {
-  position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 502px;
-  height: 50px;
+  width: 75%;
+  height: 10%;
   padding: 0px 15px 0px 15px;
   
   background: transparent;
@@ -405,10 +418,10 @@ input:hover {
 }
 
 textarea {
-  width: 502px;
-  max-width: 502px;
-  height: 110px;
-  max-height: 110px;
+  width: 75%;
+  
+  height: 30%;
+  
   padding: 15px;
   
   background: transparent;
@@ -432,7 +445,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 502px;
+  width: 75%;
   
   padding: 0;
   margin: -5px 0px 0px 0px;
@@ -460,6 +473,11 @@ textarea:hover {
   gap: 10px;
 }
 
+.outer-social > li > a > img {
+  
+  width: 50px;
+}
+
 /* pawfriend */
 
 .element-container {
@@ -468,14 +486,14 @@ textarea:hover {
   align-items: center;
   align-content: center;
   flex-direction: row;
-  margin-top: 25vmin;;
+  margin-top: 20vmin;;
   /* padding: 20px; */
 }
 
 .left-element {
   width: 70%;
   height: 100%;
-  /* margin: 10vmin; */
+  margin-left: 10vmin; 
 }
 
 .right-element {
@@ -539,4 +557,19 @@ textarea:hover {
 } 
 
 
+/* goback button */
 
+.go-back {
+  width: 6vmin;
+  height: 6vmin;
+  background-color: #b9b7b7;
+  background-image: url(./assets/back-arrows-svgrepo-com.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.container > h2 {
+  padding-top: 8rem;
+}
