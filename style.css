@@ -67,6 +67,9 @@ nav ul {
 
 .outer-social {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .outer-social >li {
@@ -141,6 +144,47 @@ nav ul {
 .welcome-container {
   display:flex;
   outline: none;
+}
+
+.mystory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  background-image: url("./assets/IMG_6138.JPG");
+  width: 90vw;
+  height: 95vh;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.faded-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.52);
+  width: 40vw;
+  height: 30vh;
+  margin: 3vh;
+  padding: 3vh;
+}
+.desc p, h1 {
+  color: white;
+}
+.desc h1 {
+  margin-bottom: 1vh;
+}
+
+.aboutMe {
+  display: flex;
+  align-content: center;
+  background-color: #aca49c;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: .2rem;
 }
 
 
@@ -473,10 +517,10 @@ textarea:hover {
   gap: 10px;
 }
 
-.outer-social > li > a > img {
+/* .outer-social > li > a > img {
   
   width: 50px;
-}
+} */
 
 /* pawfriend */
 
